@@ -25,6 +25,7 @@ Input/Output Signal Diagram:
 
 
 RTL Code:
+```
 // seven_segment_display.v
 module seven_segment_display (
     input wire [3:0] binary_input,
@@ -48,9 +49,9 @@ always @(*) begin
 end
 
 endmodule
-
+```
 TestBench:
-
+```
 `timescale 1ns / 1ps
 module seven_segment_display_tb;
 // Inputs
@@ -87,6 +88,7 @@ initial begin
 end
 
 endmodule
+```
 
 Output waveform:
 <img width="1041" height="662" alt="7seg2" src="https://github.com/user-attachments/assets/da098325-e84e-491e-bed6-48ff637641a1" />
